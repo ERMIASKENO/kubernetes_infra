@@ -1,0 +1,9 @@
+variable "resource_group_name" { type = string }
+variable "location"           { type = string }
+variable "vnet_cidr"          { type = string }
+variable "k8s_subnet_cidr"    { type = string }
+variable "bastion_subnet_cidr" { type = string }
+variable "private_endpoints_subnet_cidr" { type = string }
+variable "admin_allowed_cidr" { type = string }
+variable "prefix"             { type = string }
+variable "tags"               { type = map(string) }
